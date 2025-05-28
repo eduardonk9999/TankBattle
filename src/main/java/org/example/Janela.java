@@ -7,6 +7,7 @@ public class Janela extends JFrame {
     private JPanel tela;
 
     public Janela() {
+
         tela = new JPanel() {
             @Override
             public void paintComponent(Graphics g) {
